@@ -41,6 +41,14 @@ header nav .imgLogo {
   width: 32px;
 }
 
+.container-home .image-banner {
+  display: flex;
+}
+.container-home .image-banner .icon-baner {
+  justify-content: center;
+  width: 100%;
+  height: 350px;
+}
 h1 {
   color: green;
 }

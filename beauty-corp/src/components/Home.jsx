@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import firebase from '../firebase/firebase';
 import { useCollection } from 'react-firebase-hooks/firestore';
 import ItemProduct from '../components/ItemProduct';
+import ItemBaner from '../components/ItemBaner';
+import ItemCarruselOfferst from '../components/ItemCarruselOfferts'
+import ItemFooter from './ItemFooter';
 
 const Home = ({ type }) => {
   const [arrayProducts, setArrayProducts] = useState([]);
@@ -29,7 +32,7 @@ const Home = ({ type }) => {
   localStorage.setItem('arrayProducts', JSON.stringify(arrayProducts));
 
   return (
-    <section>
+    <section className="container-home">
       {error && <strong>Error: {JSON.stringify(error)}</strong>}
       {loading && <span> Loading...</span>}
       {value && (
@@ -39,7 +42,17 @@ const Home = ({ type }) => {
             <ItemProduct key={doc.id} obj={doc.data()} sendToCart={sendToCart} />
           )}
         </section>
+        
       )}
+      <section>
+        <ItemBaner/>
+      </section>
+      <section>
+        <ItemCarruselOfferst/>
+      </section>
+      <section>
+        <ItemFooter/>
+      </section>
     </section>
   );
 };
