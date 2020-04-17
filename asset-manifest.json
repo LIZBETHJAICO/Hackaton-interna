@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/Hackaton-interna/static/css/main.dce76e45.chunk.css",
-    "main.js": "/Hackaton-interna/static/js/main.966edc63.chunk.js",
-    "main.js.map": "/Hackaton-interna/static/js/main.966edc63.chunk.js.map",
+    "main.js": "/Hackaton-interna/static/js/main.248fb7eb.chunk.js",
+    "main.js.map": "/Hackaton-interna/static/js/main.248fb7eb.chunk.js.map",
     "runtime-main.js": "/Hackaton-interna/static/js/runtime-main.d56eff91.js",
     "runtime-main.js.map": "/Hackaton-interna/static/js/runtime-main.d56eff91.js.map",
     "static/css/2.b328fd89.chunk.css": "/Hackaton-interna/static/css/2.b328fd89.chunk.css",
-    "static/js/2.f04835f5.chunk.js": "/Hackaton-interna/static/js/2.f04835f5.chunk.js",
-    "static/js/2.f04835f5.chunk.js.map": "/Hackaton-interna/static/js/2.f04835f5.chunk.js.map",
+    "static/js/2.759af56d.chunk.js": "/Hackaton-interna/static/js/2.759af56d.chunk.js",
+    "static/js/2.759af56d.chunk.js.map": "/Hackaton-interna/static/js/2.759af56d.chunk.js.map",
     "index.html": "/Hackaton-interna/index.html",
-    "precache-manifest.55163539607b8a590b7afef08aa6d8e5.js": "/Hackaton-interna/precache-manifest.55163539607b8a590b7afef08aa6d8e5.js",
+    "precache-manifest.6fb071c68e8acbac584cfcb45d149827.js": "/Hackaton-interna/precache-manifest.6fb071c68e8acbac584cfcb45d149827.js",
     "service-worker.js": "/Hackaton-interna/service-worker.js",
     "static/css/2.b328fd89.chunk.css.map": "/Hackaton-interna/static/css/2.b328fd89.chunk.css.map",
     "static/css/main.dce76e45.chunk.css.map": "/Hackaton-interna/static/css/main.dce76e45.chunk.css.map",
-    "static/js/2.f04835f5.chunk.js.LICENSE.txt": "/Hackaton-interna/static/js/2.f04835f5.chunk.js.LICENSE.txt",
+    "static/js/2.759af56d.chunk.js.LICENSE.txt": "/Hackaton-interna/static/js/2.759af56d.chunk.js.LICENSE.txt",
     "static/media/arrow-left.svg": "/Hackaton-interna/static/media/arrow-left.e12c691f.svg",
     "static/media/asesoras.png": "/Hackaton-interna/static/media/asesoras.ddfa49b5.png",
     "static/media/chicabeautycorp.jpg": "/Hackaton-interna/static/media/chicabeautycorp.d5d8b12d.jpg",
@@ -39,8 +39,8 @@
   "entrypoints": [
     "static/js/runtime-main.d56eff91.js",
     "static/css/2.b328fd89.chunk.css",
-    "static/js/2.f04835f5.chunk.js",
+    "static/js/2.759af56d.chunk.js",
     "static/css/main.dce76e45.chunk.css",
-    "static/js/main.966edc63.chunk.js"
+    "static/js/main.248fb7eb.chunk.js"
   ]
 }
