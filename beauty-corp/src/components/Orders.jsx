@@ -5,6 +5,7 @@ import sites from '../firebase/sites';
 import sendRight from '../img/send-right.svg';
 import van from '../img/van.svg';
 import store from '../img/store.svg';
+import { Stripe } from "../components/stripe";
 
 const Orders = ({ dataOrders }) => {
   const [arr, setArr] = useState(dataOrders);
@@ -77,6 +78,10 @@ const Orders = ({ dataOrders }) => {
       <div className="btn-buy-group">
         <button type="button" className="btn-buy first">IR A COMPRAR</button>
         <button type="button" className="btn-buy">SEGUIR COMPRANDO</button>
+        <div>
+          hhh 
+          <Stripe></Stripe>
+        </div>
       </div>
       {/* <p>¿Necesitas probar nuestros productos?</p>
       <p>Visítanos en</p>
